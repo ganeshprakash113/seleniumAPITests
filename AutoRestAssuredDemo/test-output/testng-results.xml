@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T13:01:19 IST" name="Default suite" finished-at="2023-05-18T13:01:26 IST" duration-ms="6854">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T13:01:19 IST" name="Default test" finished-at="2023-05-18T13:01:26 IST" duration-ms="6854">
+      <class name="apiStartPoints.UserTestClass">
+        <test-method signature="getUserData()[pri:0, instance:apiStartPoints.UserTestClass@47faa49c]" started-at="2023-05-18T13:01:19 IST" name="getUserData" finished-at="2023-05-18T13:01:24 IST" duration-ms="4906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserData -->
+        <test-method signature="getUserDetailsById()[pri:0, instance:apiStartPoints.UserTestClass@47faa49c]" started-at="2023-05-18T13:01:24 IST" name="getUserDetailsById" finished-at="2023-05-18T13:01:24 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailsById -->
+        <test-method signature="updateUser(java.lang.String,java.lang.String)[pri:0, instance:apiStartPoints.UserTestClass@47faa49c]" started-at="2023-05-18T13:01:24 IST" name="updateUser" data-provider="updateUserData" finished-at="2023-05-18T13:01:26 IST" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- apiStartPoints.UserTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
